@@ -245,3 +245,15 @@ a {
 .cf {
   zoom:1;
 }
+
+@media screen
+{
+    .noPrint{}
+    .noScreen{display:none;}
+}
+
+@media print
+{
+    .noPrint{display:none;}
+    .noScreen{}
+}
